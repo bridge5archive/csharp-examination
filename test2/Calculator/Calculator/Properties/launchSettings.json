@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Calculator": {
+      "commandName": "Project",
+      "commandLineArgs": "./input3.txt ./input2.txt ./input1.txt"
+    }
+  }
+}
