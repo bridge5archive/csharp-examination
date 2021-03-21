@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test1", "test1", "{B7A69519-DBD5-43A1-9B52-093505D81DC5}"
+	ProjectSection(SolutionItems) = preProject
+		test1\readme.md = test1\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test2", "test2", "{CDB4B41F-8549-4098-BFDA-38777288D28C}"
+	ProjectSection(SolutionItems) = preProject
+		test2\input1.txt = test2\input1.txt
+		test2\input2.txt = test2\input2.txt
+		test2\input3.txt = test2\input3.txt
+		test2\readme.md = test2\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CBE6C9DD-BF80-45AE-B620-11DE6669B88B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "matrixtest", "test1\src\matrixtest\matrixtest.csproj", "{A9C35956-C392-45DB-BED7-D8DD8B7B1CC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9C35956-C392-45DB-BED7-D8DD8B7B1CC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C35956-C392-45DB-BED7-D8DD8B7B1CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C35956-C392-45DB-BED7-D8DD8B7B1CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C35956-C392-45DB-BED7-D8DD8B7B1CC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CBE6C9DD-BF80-45AE-B620-11DE6669B88B} = {B7A69519-DBD5-43A1-9B52-093505D81DC5}
+		{A9C35956-C392-45DB-BED7-D8DD8B7B1CC2} = {CBE6C9DD-BF80-45AE-B620-11DE6669B88B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66F00435-9E28-4C30-A5A0-30228C440BFF}
+	EndGlobalSection
+EndGlobal
